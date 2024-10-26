@@ -155,7 +155,7 @@ a {
   color: #2e2f42;
 }
 .mobile {
-  display: block;
+  display: none;
 }
 /* mobile menu css */
 .mobile {
