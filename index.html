@@ -26,49 +26,46 @@
   <body>
     <header class="header">
       <div class="container">
-        <!-- main navigation -->
         <nav class="header-nav">
-          <a href="./index.html" class="header-logo">Web<span class="link-header">Studio</span></a>
-          <ul class="nav-list list">
-            <li class="nav-item item">
-              <a href="./index.html" class="nav-link link current">Studio</a>
+          <a href="./index.html" class="logo header-logo"
+            >Web<span class="link-header">Studio</span></a
+          >
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link current">Studio</a>
             </li>
             <li class="nav-item item">
-              <a href="#portfolio" class="nav-link link">Portfolio</a>
+              <a href="#portfolio" class="nav-link">Portfolio</a>
             </li>
             <li class="nav-item item">
-              <a href="#footer" class="nav-link link">Contacts</a>
+              <a href="#footer" class="nav-link">Contacts</a>
             </li>
           </ul>
         </nav>
-        <!-- main address -->
         <address class="header-contact">
-          <ul class="contact-list list">
-            <li class="contact-item item">
-              <a href="mailto:info@devstudio.com" class="header-link link">info@devstudio.com</a>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
             </li>
-            <li class="contact-item item">
-              <a href="tel:+110001111111" class="header-link link">+11 (000) 111-11-11</a>
+            <li class="contact-item">
+              <a href="tel:+110001111111" class="contact-link">+11 (000) 111-11-11</a>
             </li>
           </ul>
         </address>
-        <!-- mobile burger -->
-        <div class="burger">
-          <button class="button-menu">
-            <svg class="icon-clouse" width="18" height="16">
-              <use href="./images/icons.svg#icon-burger"></use>
+        <button class="burger-btn">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="clouse-mobile-button clouse-button" type="button">
+            <svg class="icon-clouse" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
             </svg>
           </button>
-        </div>
-        <!-- mobile navigation -->
-        <div class="mobile">
-          <div class="container">
-            <button class="clouse-mobile-button clouse-button" type="button">
-              <svg class="icon-clouse" width="8" height="8">
-                <use href="./images/icons.svg#icon-close-black"></use>
-              </svg>
-            </button>
-            <!-- mobile menu -->
+          <nav class="mobile-nav">
             <ul class="mobile-list">
               <li class="mobile-item">
                 <a class="mobile-link" href="./index.html">Studio</a>
@@ -80,50 +77,48 @@
                 <a class="mobile-link" href="#footer">Contacts</a>
               </li>
             </ul>
-            <!-- mobile address -->
-            <address class="mobile-contact">
-              <ul class="contact-list">
-                <li class="contact-item">
-                  <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
-                </li>
-                <li class="mobile-item">
-                  <a href="tel:+110001111111" class="contact-link">+11 (000) 111-11-11</a>
-                </li>
-              </ul>
-            </address>
-            <!-- mobile social -->
-            <div class="mobile-social">
-              <ul class="social">
-                <li class="social-item">
-                  <a href="https://www.instagram.com/" target="_blank" class="social-link">
-                    <svg class="icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="https://www.twitter.com/" target="_blank" class="social-link">
-                    <svg class="icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="https://www.facebook.com/" target="_blank" class="social-link">
-                    <svg class="icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-item">
-                  <a href="https://www.linkedin.com/" target="_blank" class="social-link">
-                    <svg class="icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
+          </nav>
+          <address class="mobile-contact">
+            <ul class="contact-list">
+              <li class="contact-item">
+                <a href="tel:+110001111111" class="contact-link">+11 (000) 111-11-11</a>
+              </li>
+              <li class="contact-item">
+                <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+              </li>
+            </ul>
+          </address>
+          <div class="mobile-social">
+            <ul class="social">
+              <li class="social-item">
+                <a href="https://www.instagram.com/" target="_blank" class="social-link">
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="https://www.twitter.com/" target="_blank" class="social-link">
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="https://www.facebook.com/" target="_blank" class="social-link">
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="https://www.linkedin.com/" target="_blank" class="social-link">
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -142,50 +137,50 @@
         <div class="container">
           <h2 class="description-title visually-hidden">Our Work</h2>
           <ul class="description-list">
-            <li class="description-card card">
+            <li class="description-card">
               <div class="icon-card">
                 <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="description-card-title card-title">Strategy</h3>
-              <p class="description-card-text card-text">
+              <h3 class="description-card-title">Strategy</h3>
+              <p class="description-card-text">
                 Our goal is to identify the business problem to walk away with the perfect and
                 creative solution.
               </p>
             </li>
-            <li class="description-card card">
+            <li class="description-card">
               <div class="icon-card">
                 <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="description-card-title card-title">Punctuality</h3>
-              <p class="description-card-text card-text">
+              <h3 class="description-card-title">Punctuality</h3>
+              <p class="description-card-text">
                 Bring the key message to the brand's audience for the best price within the shortest
                 possible time.
               </p>
             </li>
-            <li class="description-card card">
+            <li class="description-card">
               <div class="icon-card">
                 <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="description-card-title card-title">Diligence</h3>
-              <p class="description-card-text card-text">
+              <h3 class="description-card-title">Diligence</h3>
+              <p class="description-card-text">
                 Research and confirm brands that present the strongest digital growth opportunities
                 and minimize risk.
               </p>
             </li>
-            <li class="description-card card">
+            <li class="description-card">
               <div class="icon-card">
                 <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="description-card-title card-title">Technologies</h3>
-              <p class="description-card-text card-text">
+              <h3 class="description-card-title">Technologies</h3>
+              <p class="description-card-text">
                 Design practice focused on digital experiences. We bring forth a deep passion for
                 problem-solving.
               </p>
@@ -196,68 +191,44 @@
       <!-- our team -->
       <section class="team">
         <div class="container">
-          <h2 class="team-title title">Our Team</h2>
-          <ul class="team-list wrapper">
-            <li class="team-card card">
+          <h2 class="team-title">Our Team</h2>
+          <ul class="team-list">
+            <li class="team-card">
               <img
-                srcset="./images/mark-guerrero.jpg 1x, ./images/mark-guerrero_1.jpg 2x"
+                srcset="./images/team/mark-guerrero.jpg 1x, ./images/mark-guerrero_1.jpg 2x"
                 src="./images/guerrero.jpg"
                 alt="Mark Guerrero"
                 class="team-image"
                 width="264"
               />
               <div class="team-decription">
-                <h3 class="team-card-title card-title">Mark Guerrero</h3>
-                <p class="team-card-text card-text">Product Designer</p>
+                <h3 class="team-card-title">Mark Guerrero</h3>
+                <p class="team-card-text">Product Designer</p>
                 <ul class="social">
                   <li class="social-item">
-                    <a
-                      href="https://www.instagram.com/"
-                      target="_blank"
-                      class="social-link"
-                      rel="noopener noreferrer"
-                      aria-label="link to instagram"
-                    >
-                      <svg class="icon" width="24" height="24">
+                    <a href="https://www.instagram.com/" target="_blank" class="social-link">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
-                    <a
-                      href="https://www.twitter.com/"
-                      target="_blank"
-                      class="social-link"
-                      rel="noopener noreferrer"
-                      aria-label="link to twitter"
-                    >
-                      <svg class="icon" width="24" height="24">
+                    <a href="https://www.twitter.com/" target="_blank" class="social-link">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
-                    <a
-                      href="https://www.facebook.com/"
-                      target="_blank"
-                      class="social-link"
-                      rel="noopener noreferrer"
-                      aria-label="link to facebook"
-                    >
-                      <svg class="icon" width="24" height="24">
+                    <a href="https://www.facebook.com/" target="_blank" class="social-link">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
-                    <a
-                      href="https://www.linkedin.com/"
-                      target="_blank"
-                      class="social-link"
-                      rel="noopener noreferrer"
-                      aria-label="link to linkedin"
-                    >
-                      <svg class="icon" width="24" height="24">
+                    <a href="https://www.linkedin.com/" target="_blank" class="social-link">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -267,8 +238,8 @@
             </li>
             <li class="team-card card">
               <img
-                srcset="./images/tom-ford.jpg 1x, ./images/tom-ford_1.jpg 2x"
-                src="./images/ford.jpg"
+                srcset="./images/team/tom-ford.jpg 1x, ./images/team/tom-ford_1.jpg 2x"
+                src="./images/team/ford.jpg"
                 alt="Tom Ford"
                 class="team-image"
                 width="264"
@@ -279,28 +250,28 @@
                 <ul class="social">
                   <li class="social-item">
                     <a href="https://www.instagram.com/" target="_blank" class="social-link">
-                      <svg class="icon" width="24" height="24">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a href="https://www.twitter.com/" target="_blank" class="social-link">
-                      <svg class="icon" width="24" height="24">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a href="https://www.facebook.com/" target="_blank" class="social-link">
-                      <svg class="icon" width="24" height="24">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a href="https://www.linkedin.com/" target="_blank" class="social-link">
-                      <svg class="icon" width="24" height="24">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -310,8 +281,8 @@
             </li>
             <li class="team-card card">
               <img
-                srcset="./images//camila-garcia.jpg 1x, ./images/camila-garcia_1.jpg 2x"
-                src="./images/garcia.jpg"
+                srcset="./images/team/camila-garcia.jpg 1x, ./images/team/camila-garcia_1.jpg 2x"
+                src="./images/team/garcia.jpg"
                 alt="Camila Garcia"
                 class="team-image"
                 width="264"
@@ -322,28 +293,28 @@
                 <ul class="social">
                   <li class="social-item">
                     <a href="https://www.instagram.com/" target="_blank" class="social-link">
-                      <svg class="icon" width="24" height="24">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a href="https://www.twitter.com/" target="_blank" class="social-link">
-                      <svg class="icon" width="24" height="24">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a href="https://www.facebook.com/" target="_blank" class="social-link">
-                      <svg class="icon" width="24" height="24">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a href="https://www.linkedin.com/" target="_blank" class="social-link">
-                      <svg class="icon" width="24" height="24">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -353,8 +324,8 @@
             </li>
             <li class="team-card card">
               <img
-                srcset="./images/daniel-wilson.jpg 1x, ./images/daniel-wilson_1.jpg 2x"
-                src="./images/wilson.jpg"
+                srcset="./images/team/daniel-wilson.jpg 1x, ./images/team/daniel-wilson_1.jpg 2x"
+                src="./images/team/wilson.jpg"
                 alt="Daniel Wilson"
                 class="team-image"
                 width="264"
@@ -365,28 +336,28 @@
                 <ul class="social">
                   <li class="social-item">
                     <a href="https://www.instagram.com/" target="_blank" class="social-link">
-                      <svg class="icon" width="24" height="24">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a href="https://www.twitter.com/" target="_blank" class="social-link">
-                      <svg class="icon" width="24" height="24">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a href="https://www.facebook.com/" target="_blank" class="social-link">
-                      <svg class="icon" width="24" height="24">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a href="https://www.linkedin.com/" target="_blank" class="social-link">
-                      <svg class="icon" width="24" height="24">
+                      <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -400,13 +371,16 @@
       <!-- our portfolio -->
       <section id="portfolio" class="portfolio">
         <div class="container">
-          <h2 class="portfolio-title title">Our Portfolio</h2>
-          <ul class="portfolio-list wrapper">
-            <li class="portfolio-card card">
+          <h2 class="portfolio-title">Our Portfolio</h2>
+          <ul class="portfolio-list">
+            <li class="portfolio-card">
               <div class="card-image">
                 <img
-                  srcset="./images/banking-app.jpg 1x, ./images/banking-app@2x.jpg 2x"
-                  src="./images/banking.jpg"
+                  srcset="
+                    ./images/portfolio/banking-app.jpg    1x,
+                    ./images/portfolio/banking-app@2x.jpg 2x
+                  "
+                  src="./images/portfolio/banking.jpg"
                   alt="banking app"
                   class="portfolio-image"
                   width="288"
@@ -417,15 +391,18 @@
                 </p>
               </div>
               <div class="portfolio-decription">
-                <h3 class="portfolio-card-title card-title">Banking App</h3>
-                <p class="portfolio-card-text card-text">App</p>
+                <h3 class="portfolio-card-title">Banking App</h3>
+                <p class="portfolio-card-text">App</p>
               </div>
             </li>
-            <li class="portfolio-card card">
+            <li class="portfolio-card">
               <div class="card-image">
                 <img
-                  srcset="./images/cashless-payment.jpg 1x, ./images/cashless-payment@2x.jpg 2x"
-                  src="./images/payment.jpg"
+                  srcset="
+                    ./images/portfolio/cashless-payment.jpg    1x,
+                    ./images/portfolio/cashless-payment@2x.jpg 2x
+                  "
+                  src="./images/portfolio/payment.jpg"
                   alt="cashless payment"
                   class="portfolio-image"
                   width="288"
@@ -443,8 +420,11 @@
             <li class="portfolio-card card">
               <div class="card-image">
                 <img
-                  srcset="./images/meditation-app.jpg 1x, ./images/meditation-app@2x.jpg 2x"
-                  src="./images/meditation.jpg"
+                  srcset="
+                    ./images/portfolio/meditation-app.jpg    1x,
+                    ./images/portfolio/meditation-app@2x.jpg 2x
+                  "
+                  src="./images/portfolio/meditation.jpg"
                   alt="meditation app"
                   class="portfolio-image"
                   width="288"
@@ -462,8 +442,11 @@
             <li class="portfolio-card card">
               <div class="card-image">
                 <img
-                  srcset="./images/taxi-service.jpg 1x, ./images/taxi-service@2x.jpg 2x"
-                  src="./images/taxi.jpg"
+                  srcset="
+                    ./images/portfolio/taxi-service.jpg    1x,
+                    ./images/portfolio/taxi-service@2x.jpg 2x
+                  "
+                  src="./images/portfolio/taxi.jpg"
                   alt="meditation app"
                   class="portfolio-image"
                   width="288"
@@ -483,10 +466,10 @@
               <div class="card-image">
                 <img
                   srcset="
-                    ./images/screen-illustrations.jpg    1x,
-                    ./images/screen-illustrations@2x.jpg 2x
+                    ./images/portfolio/screen-illustrations.jpg    1x,
+                    ./images/portfolio/screen-illustrations@2x.jpg 2x
                   "
-                  src="./images/screen.jpg"
+                  src="./images/portfolio/screen.jpg"
                   alt="Daniel Wilson"
                   class="portfolio-image"
                   width="288"
@@ -505,8 +488,11 @@
             <li class="portfolio-card card">
               <div class="card-image">
                 <img
-                  srcset="./images//online-courses.jpg 1x, ./images/online-courses@2x.jpg 2x"
-                  src="./images/courses.jpg"
+                  srcset="
+                    ./images/portfolio/online-courses.jpg    1x,
+                    ./images/portfolio/online-courses@2x.jpg 2x
+                  "
+                  src="./images/portfolio/courses.jpg"
                   alt="Daniel Wilson"
                   class="portfolio-image"
                   width="288"
@@ -530,14 +516,16 @@
     <footer id="footer" class="footer">
       <div class="container">
         <div class="footer-description">
-          <a href="./index.html" class="footer-logo">Web<span class="footer-link">Studio</span></a>
-          <p class="description-text card-text text">
+          <a href="./index.html" class="footer-logo logo"
+            >Web<span class="footer-link">Studio</span></a
+          >
+          <p class="description-text">
             Increase the flow of customers and sales for your business with digital marketing &#38;
             growth solutions.
           </p>
         </div>
         <div class="footer-social">
-          <p class="social-text text">Social media</p>
+          <p class="social-text">Social media</p>
           <ul class="social">
             <li class="social-item">
               <a
@@ -594,7 +582,7 @@
           </ul>
         </div>
         <div class="footer-subscribe">
-          <p class="subscribe-text text">Subscribe</p>
+          <p class="subscribe-text">Subscribe</p>
           <form class="subscribe-form" autocomplete="off">
             <label class="subscribe-label" for="emailsubscribe">
               <input
@@ -671,7 +659,7 @@
               class="visually-hidden"
             />
             <span class="form-link">
-              <svg class="icon-check" width="10" height="8">
+              <svg class="icon-check" width="10" height="10">
                 <use href="./images/icons.svg#icon-vector"></use>
               </svg>
             </span>
